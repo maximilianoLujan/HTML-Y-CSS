@@ -78,3 +78,13 @@
 ::placeholder{
     color: black;
 }
+.form_div4 button:hover{
+    color: aliceblue;
+    background-color: #0040ff;
+    cursor:pointer;
+}
+.form_div4:hover{
+    height: 50px;
+    width: 180px;
+    cursor: hand;
+}
