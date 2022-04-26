@@ -1,0 +1,28 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(futbol.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contenedor{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.contenedor__div{
+    border-radius: 10px;
+    border: 2px grey solid;
+    width: 350px;
+    height: 350px;
+    background-color: whitesmoke;
+}
+.contenedor__div__h1{
+    text-align: center;    
+}
