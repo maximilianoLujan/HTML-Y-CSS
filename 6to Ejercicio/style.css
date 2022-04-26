@@ -1,0 +1,9 @@
+p{
+    color:red;
+}
+.miparrafo{
+    color: aqua;
+}
+.miparrafo p{
+    color: blue;
+}
