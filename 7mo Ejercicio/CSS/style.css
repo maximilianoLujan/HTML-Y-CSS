@@ -26,3 +26,72 @@ body{
 .contenedor__div__h1{
     text-align: center;    
 }
+.contenedor__div__form{
+    margin: 0;
+}
+.contenedor__div__form__div{
+    display: block;
+}
+
+.contenedor__div__form--div2{
+   width: 350px;
+   height: 120px;
+   position: relative;
+}
+.contenedor__div__form--div2 button{
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 32%;
+    right:32%;
+    bottom: 32%;
+    left:32%;
+}
+.contenedor__div__form--div2 button:hover{
+    cursor: pointer;
+    background-color: rgb(43, 153, 40);
+    top: 30%;
+    right:30%;
+    bottom: 30%;
+    left:30%;
+}
+.contenedor__div__form__input{
+    margin: 5px;
+    width:332px;
+}
+.contenedor__div__form--div3{
+    width: 350px;
+    height: 135px;
+    position: relative;
+}
+.contenedor__div__form--div3__div{
+    width: 350px;
+    height: 30px;
+}
+.contenedor__div__form__input1{
+    width: 160px;
+}
+.contenedor__div__form__input1:first-child{
+    margin-left: 5px;
+}
+.contenedor__div__form__input:nth-of-type(2){
+    margin-bottom: 15px;
+}
+.contenedor__div__form__select{
+    width: 340px;
+    margin-left: 5px;
+}
+.contenedor__div__form--div{
+    position: relative;
+    height: 20px;
+    padding-left: 1px;
+}
+.contenedor__div__form--div label{
+    position: absolute;
+    font-size: small;
+    left: 20px;
+    top: 1px;
+}
+.contenedor__div__form--div input[type="checkbox"]{
+    position: absolute;
+}

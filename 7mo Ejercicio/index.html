@@ -12,17 +12,33 @@
         <div class="contenedor__div">
             <h1 class="contenedor__div__h1">  Registrate</h1>
             <form class="contenedor__div__form" action="">
-                <input type="text" placeholder="Nombre">
-                <input type="text" name="" id="" placeholder="Apellido">
-                <input type="email" name="" id="" placeholder="Escriba Su Email">
-                <input type="password" name="" id="" placeholder="Escriba su Nueva Contraseña">
-                <input type="checkbox" name="" id="">
-                <label for="">
+                <div class="contenedor__div__form--div3">
+                    <div class="contenedor__div__form--div3__div">
+                        <input class="contenedor__div__form__input1" required type="text" placeholder="Nombre">
+                        <input class="contenedor__div__form__input1" required type="text" name="" id="" placeholder="Apellido">
+                    </div>    
+                        <input class="contenedor__div__form__input" required type="email" name="" id="" placeholder="Escriba Su Email">
+                        <input class="contenedor__div__form__input" required type="password" name="" id="" placeholder="Escriba su Nueva Contraseña">
+                        <select class="contenedor__div__form__select" required name="Equipo" id="">
+                            <option value="Seleccione" selected>Seleccione su equipo preferido</option>
+                            <option value="EDLP">Estudiantes de la Plata</option>
+                            <option value="CABJ">Boca Juniors</option>
+                            <option value="CARP">River Plate</option>
+                            <option value="CAI">Independiente</option>
+                            <option value="RAC">Racing</option>
+                        </select>
+                </div>
+                <div class="contenedor__div__form--div">
+                    <label for="">
                     Estoy de acuerdo con los terminos y condiciones.
-                </label>
-                <button>
-                    Registrarme
-                </button>
+                    </label>
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="contenedor__div__form--div2">
+                    <button>
+                        Registrarme
+                    </button>
+                </div>
             </form>
         </div>
     </div>
