@@ -40,7 +40,7 @@ body{
 }
 .contenedor__div__form--div2 button{
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 30px;
     position: absolute;
     top: 32%;
     right:32%;
