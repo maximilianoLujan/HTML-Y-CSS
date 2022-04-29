@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.midiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 100%;
+    height: 1000px;
+}
+.midiv-div{
+    background-color: red;
+    width: 150px;
+    margin: 5px;
+    height: 150px;
+}
+.midiv-div-rot:hover{
+    animation-name: rotar;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: blue;
+    }
+
+}
+.midiv-div-right:hover{
+    animation-name: right;
+    animation-duration: 6s;
+    animation-delay:1s;
+}
+@keyframes right {
+    from{
+    }
+    to{
+        transform: translate(600px,0);
+        opacity: 0;
+        background-color: bisque;
+    }
+}
+.midiv-div-rightandleft:hover{
+    animation-name: rightandleft;
+    animation-duration: 20s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes rightandleft {
+    20%{
+        background-color: rgb(60, 179, 113);
+        transform: translateX(-200px);
+    }
+    30%{
+        background-color: rgb(255, 165, 0);
+        transform: translateX(-400px);
+    }
+    40%{
+        background-color: rgb(0, 0, 255);
+        transform: translateX(-200px);
+    }
+    50%{
+        background-color: rgb(238, 130, 238);
+        transform: translateX(0);
+    }
+    60%{
+        background-color: rgb(106, 90, 205);
+        transform: translateX(200px);
+    }
+    70%{
+        background-color: rgba(255, 0, 85, 0.9);
+        transform: translateX(400px);
+    }
+    80%{
+        background-color: rgba(0, 255, 192, 1);
+        transform: translateX(200px);
+    }
+    100%{
+        background-color: rgb(0, 0, 255);
+        transform: translateX(0);
+    }
+}
+.midiv-div-tool{
+    display: flex;
+    flex-direction: row;
+}
+.midiv-div-tool-div{
+    background-color: black;
+    height: 100px;
+    width: 40px;
+    margin: 5px 5px 0 5px;
+    margin-bottom: 0;
+}
+.midiv-div:nth-child(4){
+    height: 110px;
+}
