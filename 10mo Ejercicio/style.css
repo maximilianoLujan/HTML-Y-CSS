@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    height: 50px;
+    margin: 0;
+}
+.header-h1{
+    margin: 0;
+}
+.header__menu{
+    width: 60px;
+    height: 50px;
+    background-color: red;
+}
+.header__logo{
+    width: 250px;
+    height: 50px;
+    background-color: blue;
+}
+
+.header__icons{
+    height: 50px;
+    width: fit-content;
+    width: 370px;
+    background-color: blueviolet;
+}
+.header__search{
+    height: 50px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header__search input[type="text"]{
+    height: 25px;
+    width: 450px;
+    border: 1px solid grey;
+}
+.header__search__div__button{
+    height: 29px;
+    width: 40px;
+    border: 1px solid grey;
+    background-color: #e9e9e9;
+    border-left: 0;
+    background-image: url(lupa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.header__search--div{
+    height: 30px;
+}
+.header__search__div3{
+    margin-left: 5px;
+}
+.header__search div:nth-last-of-type(4){
+    margin-left: 5px;
+}
+.header__search__div2__button{
+    height: 29px;
+    width: 40px;
+    border: 0;
+    border-radius: 40px;
+    padding-left: 5px;
+    background-color: #e9e9e9;
+    border-left: 0;    
+    background-image: url(microfono16.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.header__search div:nth-of-type(2):hover{
+    cursor: pointer;
+}
