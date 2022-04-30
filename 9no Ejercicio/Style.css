@@ -90,14 +90,32 @@ body{
 .midiv-div-tool{
     display: flex;
     flex-direction: row;
+    margin-left: 25px;
+}
+.midiv-div-tool:hover{
+    position: fixed;
+    width: 200px;
+    height: 160px;
+
 }
 .midiv-div-tool-div{
-    background-color: black;
+    text-align: center;
+    background-color: white;
     height: 100px;
     width: 40px;
     margin: 5px 5px 0 5px;
-    margin-bottom: 0;
 }
 .midiv-div:nth-child(4){
     height: 110px;
+}
+.midiv-div-tool-div:hover{
+    width: 90px;
+    height: 150px;
+    cursor: pointer;
+}
+.midiv2{
+    width: 200px;
+    height: 160px;
+    position: relative;
+    background-color: bisque;
 }
