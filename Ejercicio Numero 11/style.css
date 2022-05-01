@@ -1,0 +1,43 @@
+ body{
+     margin: 0;
+     padding: 0;
+ }
+ .container{
+    width: 100vw;
+    height: 50vh;
+    margin: 1vh;
+}
+ .container-responsive{
+     width: 70%;
+     height: 100%;
+     background-color: rgb(211, 11, 11);
+ }
+ @media screen and (max-width: 500px) {
+    .container-responsive{
+        width: 100%;
+        height: 50%;
+        background-color: rgb(25, 192, 25);
+    }
+  }
+  .container2{
+      position: relative;
+      width: 100vw;
+      height: 50vh;
+  }
+  /*1280 × 720*/
+  video{
+      position: absolute;
+      width: 100vw;
+      height: 50vh;
+  }
+  img{
+      opacity: 0;
+  }
+@media screen and (max-width: 700px) {
+    video{
+        opacity: 0;
+    }
+    img{
+        opacity: 1;
+    }
+}
