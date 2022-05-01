@@ -8,6 +8,9 @@ h1{
     font-size: x-large;
     padding-top: 10px;
 }
+h5{
+    margin-left: 1px;
+}
 .header{
     display: flex;
     height: 50px;
@@ -179,24 +182,15 @@ h1{
     background-color: white;
     background-size: 25px;
 }
-.videos{
-    display: flex;
-    flex-wrap: wrap;
-}
-.videos--div{
-    margin: 5px;
-    width: 300px;
-    height: 200px;
-    background-color: red;
-}
 .container{
     display: flex;
+    height: 1000px;
 }
 .container__buttons{
-    width: 79px;
-    height: 70px;
+    width: 80px;
+    height: max-content;
     display: grid;
-    grid-template-rows: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px;
 }
 .container__buttons button{
     position: absolute;
@@ -206,6 +200,7 @@ h1{
     height: 40px;
     margin: 0;
     top: 0;
+    margin-left: 12px;
 }
 .container__buttons--div1{
     position: relative;
@@ -215,14 +210,91 @@ h1{
     bottom: 0;
     height: 20px;
     margin: 0;
-    padding-left: 5px;
+    padding-left: 15px;
 }
 .container__buttons--div2{
     position: relative;
 }
+.container__buttons--h2{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    margin: 0;
+    padding-left: 10px;
+}
 .container__buttons--div3{
     position: relative;
 }
+.container__buttons--h3{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    margin: 0;
+    padding-left: 15px;
+}
 .container__buttons--div4{
     position: relative;
+}
+.container__buttons--h4{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    margin: 0;
+}
+.container__buttons--div5{
+    position: relative;
+}
+.container__buttons--h5{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    margin: 0;
+    padding-left: 9px;
+}
+.container__buttons--1{
+    background-image: url(Imagenes/casa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__buttons--2{
+    background-image: url(Imagenes/brujula.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__buttons--3{
+    background-image: url(Imagenes/youtuber.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__buttons--4{
+    background-image: url(Imagenes/Subscriptions.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container__buttons--5{
+    color: black;
+    background-image: url(Imagenes/Library.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.videos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 190px 190px 190px;
+}
+.videos--div{
+    margin: 5px;
+    width: 300px;
+    height: 180px;
+    border: 1px solid grey;
+}
+.videos img{
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 290px;
+    height: 120px;
+}
+p{
+    text-align: center;
 }
