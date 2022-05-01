@@ -16,12 +16,6 @@ h1{
 .header-h1{
     margin: 0;
 }
-.header__icons{
-    height: 50px;
-    width: fit-content;
-    width: 370px;
-    background-color: blueviolet;
-}
 .header__search{
     height: 50px;
     width: 600px;
@@ -87,6 +81,7 @@ h1{
     width: 40px;
     height: 32px;
     border: 0;
+    background-size: 25px;
     background-color: white;
     background-repeat: no-repeat;
     background-image: url(Imagenes/menu.png);
@@ -134,4 +129,100 @@ h1{
     margin: 0;
     font-size: 12px;
 
+}
+.header__icons{
+    height: 50px;
+    width: fit-content;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__icons button{
+    height: 40px;
+    width: 40px;
+    margin: 8px;
+}
+.header__icons button:hover{
+    cursor: pointer;
+}
+.header__icons--video{
+    background-image: url(Imagenes/reproductor-de-video.png);
+    background-repeat: no-repeat;
+    border: 0;
+    background-position: center;
+    background-color: white;
+    background-size: 25px;
+}
+.header__icons--apps{
+    background-image: url(Imagenes/apps.png);
+    background-repeat: no-repeat;
+    border: 0;
+    background-position: center;
+    background-color: white;
+    background-size: 25px;
+}
+.header__icons--bell{
+    background-image: url(Imagenes/bell.png);
+    background-repeat: no-repeat;
+    border: 0;
+    background-position: center;
+    background-color: white;
+    background-size: 25px;
+}
+.header__icons--profile{
+    background-image: url(Imagenes/perfil.webp);
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 50px;
+    background-position: center;
+    background-color: white;
+    background-size: 25px;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.videos--div{
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+.container{
+    display: flex;
+}
+.container__buttons{
+    width: 79px;
+    height: 70px;
+    display: grid;
+    grid-template-rows: 60px 60px 60px 60px;
+}
+.container__buttons button{
+    position: absolute;
+    background-color: white;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    top: 0;
+}
+.container__buttons--div1{
+    position: relative;
+}
+.container__buttons--h1{
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+    margin: 0;
+    padding-left: 5px;
+}
+.container__buttons--div2{
+    position: relative;
+}
+.container__buttons--div3{
+    position: relative;
+}
+.container__buttons--div4{
+    position: relative;
 }
