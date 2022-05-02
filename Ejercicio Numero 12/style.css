@@ -1,0 +1,10 @@
+.milink{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: rgb(14, 109, 233);
+}
