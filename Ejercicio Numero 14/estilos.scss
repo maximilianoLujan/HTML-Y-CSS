@@ -1,0 +1,45 @@
+@import "variables";
+body{
+    margin:0;
+    padding:0;
+}
+.mi__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 98vh;
+    width:  98vw;
+    border: 5px double $Color_Principal;
+
+}
+.mi__div--word{
+    font-family: 'Koulen', cursive;
+    margin: 0;
+    color: $Color_Principal;
+    position: absolute;
+    font-size: xx-large;
+    top: 35%;
+    left: 24%;
+    animation: mi_animacion $speed infinite ease-in-out;
+
+    @for $i from 0 to $word_count{
+        &:nth-child(#{$i + 1}){
+            animation-delay: ($speed/($word_count + 1) * $i ) - $speed;
+        }
+        
+    }
+    @keyframes mi_animacion {
+        0% , 5% , 100%{filter:blur(0px);opacity:1;}
+        20%,80%{filter: blur(1em);opacity:0;}
+    }
+}
+.mi__div--word:first-child{
+    left: 16%;
+}
+.mi__div2{
+    width: 250px;
+    height: 150px;
+    position: relative;
+}
