@@ -1,0 +1,7 @@
+Crear una capa diferente para cada uno de los principales elementos del Currículum: "cabecera", "índice", "fotografía", "datos personales", "formación académica", "experiencia laboral" y "otros datos".
+Situar la fotografía a la derecha de "datos personales" utilizando las propiedades de flotación.
+Modificar el tipo de letra utilizando las fuentes de Google Fonts.
+Eliminar el subrayado de los enlaces.
+Utilizar las pseudo-propiedades en los enlaces, para que cambien de color al pasar el ratón por ellos.
+Personalizar las listas incluyendo un icono que te puedes descargar de Internet.
+Personalizar los bordes, márgenes y colores a tu gusto.
