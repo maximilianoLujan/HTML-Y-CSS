@@ -18,7 +18,10 @@ body{
     height: 100vh;
     background-color: $color_principal;
 }
-.mi__contenedor--2{ 
+.mi__contenedor--2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 60vw;
     height: 100vh;
 }
@@ -81,4 +84,64 @@ body{
     .contenedor__global{
         display: none;
     }
+}
+//Realizando la parte derecha del cv
+
+//Apartado de nombre y puesto
+.mi__contenedor--2--1{
+    width: 80%;
+    height: min-content;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.nombre{
+    text-align: center;
+}
+.nombre--h1{
+    margin-bottom: 10px;
+}
+.nombre--h3{
+    margin-top: 0;
+    font-weight: 200;
+}
+//Apartado "acerca de mi"
+.acerca_de_mi{
+    display: flex;
+    flex-direction: column;
+}
+.acerca_de_mi--h3{
+    height: min-content;
+    background-color: $color_principal;
+    padding: 5px;
+    margin: 0;
+}
+//Apartado "educacion"
+.educacion--div--h3{
+    height: min-content;
+    background-color: $color_principal;
+    padding: 5px;
+    margin: 0;
+    margin-top: 20px;
+
+}
+.mi__contenedor--2--1 p{
+    margin: 0;
+    margin-top: 10px;
+}
+h4{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+//Apartado "habilidades"
+.habilidades--div--h3{
+    height: min-content;
+    background-color: $color_principal;
+    padding: 5px;
+    margin: 0;   
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.habilidades--div--grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
