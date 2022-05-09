@@ -1,1 +1,0 @@
-let auxiliar = document.getElementsByClassName("menu--div");
