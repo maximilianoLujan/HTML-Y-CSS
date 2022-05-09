@@ -1,0 +1,35 @@
+@import "variables.scss";
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: 0;
+}
+.menu{
+    display: flex;
+    height: 40px;
+    background-color: $color_principal;
+}
+.menu--div{
+    height: 100%;
+    width: 100%;
+    border-right: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu--div:hover{
+    background-color: $color_secundario;
+    cursor: pointer;
+}
+@media screen and (max-width:"600px") {
+    .menu{
+        display: block;
+        height: max-content;
+    }
+    .menu--div{
+        border-bottom: 1px white solid;
+    }
+}
