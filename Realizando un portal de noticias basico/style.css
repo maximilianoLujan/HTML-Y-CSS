@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor {
+  width: 900px;
+  height: 100vh;
+  padding: 0 30px 0 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera {
+  width: 100%;
+  height: 88px;
+  background-image: url(https://www.ticarte.com/sites/su/users/7/file/xataka-cabecera.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.cabecera__buscar {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+
+.cabecera--input,
+.cabecera--boton {
+  height: 25px;
+}
+
+.cabecera--boton {
+  height: 32px;
+  width: 65px;
+  color: white;
+  background-color: #e7123a;
+  border: none;
+  border-radius: 7px;
+}
+
+.cabecera--boton:hover {
+  cursor: pointer;
+}
+
+.contenido {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+  margin-bottom: 15px;
+}
+
+.noticia--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenido img {
+  height: 350px;
+  width: 100%;
+}
+
+.noticia--div--a {
+  height: 16px;
+  width: 16px;
+  background-image: url(Imagenes/burbuja-de-dialogo.png);
+  background-repeat: no-repeat;
+}
+
+.noticia--div--p {
+  color: #4b8a20;
+  margin: 0;
+}
+
+.noticia--abajo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.noticia--abajo--div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.noticias--abajo--tw {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background-image: url(Imagenes/twitter.png);
+  background-repeat: no-repeat;
+}
+
+.noticias--abajo--fc {
+  height: 17px;
+  width: 16px;
+  display: inline-block;
+  background-image: url(Imagenes/facebook.png);
+  background-repeat: no-repeat;
+}
+
+.noticias--abajo--g {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  background-image: url(Imagenes/google.png);
+  background-repeat: no-repeat;
+}
+
+.noticia--abajo--div--div {
+  width: 100px;
+}
+
+.leer__mas {
+  color: #4b8a20;
+}
+
+.pie {
+  height: 250px;
+  width: 100%;
+  background-color: #333333;
+}
+
+.pie--contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px 0 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.pie--contenedor--c {
+  color: white;
+}
+
+.pie--contenedor-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px 0 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.pie--contenedor--b {
+  color: grey;
+}
+/*# sourceMappingURL=style.css.map */

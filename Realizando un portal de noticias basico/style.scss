@@ -1,0 +1,131 @@
+@import "variables.scss";
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor{
+    width: 900px;
+    height: 100vh;
+    padding: 0 30px 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+//Realizando la parte de la cabecera
+.cabecera{
+    width: 100%;
+    height: 88px;
+    background-image:url(https://www.ticarte.com/sites/su/users/7/file/xataka-cabecera.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cabecera__buscar{
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+.cabecera--input,
+.cabecera--boton{
+    height: 25px;
+}
+.cabecera--boton{
+    height: 32px;
+    width: 65px;
+    color: white;
+    background-color: $color4;
+    border: none;
+    border-radius: 7px;
+}
+.cabecera--boton:hover{
+    cursor: pointer;
+}
+
+//Realizando parte de las noticias
+.contenido{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-bottom: 15px;
+}
+.noticia--div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido img{
+    height: 350px;
+    width: 100%;
+}
+.noticia--div--a{
+    height: 16px;
+    width: 16px;
+    background-image:url(Imagenes/burbuja-de-dialogo.png);
+    background-repeat: no-repeat;
+}
+.noticia--div--p{
+    color: $color2;
+    margin: 0;
+}
+.noticia--abajo{
+    display: flex;
+    justify-content: space-between;
+}
+.noticia--abajo--div{
+    display: flex;
+}
+.noticias--abajo--tw{
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-image: url(Imagenes/twitter.png);
+    background-repeat: no-repeat;
+}
+.noticias--abajo--fc{
+    height: 17px;
+    width: 16px;
+    display: inline-block;
+    background-image: url(Imagenes/facebook.png);
+    background-repeat: no-repeat;
+}
+.noticias--abajo--g{
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background-image: url(Imagenes/google.png);
+    background-repeat: no-repeat;
+}
+.noticia--abajo--div--div{
+    width: 100px;
+}
+.leer__mas{
+    color: $color2;
+}
+
+//Realizando el pie
+.pie{
+    height: 250px;
+    width: 100%;
+    background-color: $color1;
+}
+.pie--contenedor{
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    border-bottom: 1px solid $color3;
+}
+.pie--contenedor--c{
+    color: white;
+}
+.pie--contenedor-b{
+    display: flex;
+    padding: 0 20px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.pie--contenedor--b{
+    color: grey;
+}
