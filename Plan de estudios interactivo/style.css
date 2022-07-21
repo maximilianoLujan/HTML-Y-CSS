@@ -72,6 +72,9 @@ main section:nth-child(1){
 .verde{
     background-color: rgba(70,252,70,1);
 }
+.colormateria{
+    background-color: rgb(56, 159, 177);
+}
 .celeste{
     background-color: rgba(0,255,200,1);
 }
@@ -81,9 +84,23 @@ main section:nth-child(1){
 .bordenegro{
     border:2px black solid;
 }
-.colormateria{
-    background-color: rgb(56, 159, 177);
-}
+
 .primero-1{
     justify-content: space-between;
+}
+@media screen and (max-width:700px) {
+    main{
+        flex-direction: column;
+        align-items:center;
+    }
+    main section:nth-child(1){
+        padding: 0;
+        width: 90%;
+    }
+    .item{
+    }
+    .contenedor-2{
+        width: 100%;
+        height: max-content;
+    }
 }
